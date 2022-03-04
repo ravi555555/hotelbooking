@@ -1,0 +1,1243 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 5,
+        "name": "User has already logged in with valid credentials",
+        "description": "and is navigated to hotelBooking page. ",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1877845300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefHotelBooking.openBrowsser()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Check the title",
+        "description": "",
+        "id": "hotelbooking;check-the-title",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 140629100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User is on hotel booking page",
+            "match": {
+              "location": "StepDefHotelBooking.user_is_on_hotel_booking_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 107023800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "check the title of the page",
+            "match": {
+              "location": "StepDefHotelBooking.check_the_title_of_the_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@HotelBooking"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "User has already logged in with valid credentials",
+        "description": "and is navigated to hotelBooking page. ",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1325807200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefHotelBooking.openBrowsser()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Successful hotel booking with all valid data",
+        "description": "",
+        "id": "hotelbooking;successful-hotel-booking-with-all-valid-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 108062900,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User is on hotel booking page",
+            "match": {
+              "location": "StepDefHotelBooking.user_is_on_hotel_booking_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12126849900,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user enters all valid data",
+            "match": {
+              "location": "StepDefHotelBooking.user_enters_all_valid_data()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 253909100,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "navigate to welcome page",
+            "match": {
+              "location": "StepDefHotelBooking.navigate_to_welcome_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@HotelBooking"
+          },
+          {
+            "name": "@succesful_login"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "User has already logged in with valid credentials",
+        "description": "and is navigated to hotelBooking page. ",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1329377000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefHotelBooking.openBrowsser()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Failure in hotel Booking on leaving the first Name empty",
+        "description": "",
+        "id": "hotelbooking;failure-in-hotel-booking-on-leaving-the-first-name-empty",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 99140500,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User is on hotel booking page",
+            "match": {
+              "location": "StepDefHotelBooking.user_is_on_hotel_booking_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1059037200,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user leaves first Name blank",
+            "match": {
+              "location": "StepDefHotelBooking.user_leaves_first_Name_blank()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 88959400,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "clicks the button",
+            "match": {
+              "location": "StepDefHotelBooking.clicks_the_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1091968100,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "display alert msg",
+            "match": {
+              "location": "StepDefHotelBooking.display_alert_msg()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@HotelBooking"
+          },
+          {
+            "name": "@first_name_field_validation"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "User has already logged in with valid credentials",
+        "description": "and is navigated to hotelBooking page. ",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1311642000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefHotelBooking.openBrowsser()"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "Failure in hotel Booking on leaving the last Name blank",
+        "description": "",
+        "id": "hotelbooking;failure-in-hotel-booking-on-leaving-the-last-name-blank",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 108477900,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User is on hotel booking page",
+            "match": {
+              "location": "StepDefHotelBooking.user_is_on_hotel_booking_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2176687700,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "user leaves last Name blank and clicks the button",
+            "match": {
+              "location": "StepDefHotelBooking.user_leaves_last_Name_blank_and_clicks_the_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1124123100,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "display alert msg",
+            "match": {
+              "location": "StepDefHotelBooking.display_alert_msg()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@HotelBooking"
+          },
+          {
+            "name": "@last_name_validation"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "User has already logged in with valid credentials",
+        "description": "and is navigated to hotelBooking page. ",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1246243000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefHotelBooking.openBrowsser()"
+            }
+          }
+        ],
+        "line": 35,
+        "name": "Failure in hotel Booking on incorrect email format",
+        "description": "",
+        "id": "hotelbooking;failure-in-hotel-booking-on-incorrect-email-format",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 108754400,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "User is on hotel booking page",
+            "match": {
+              "location": "StepDefHotelBooking.user_is_on_hotel_booking_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11707492400,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "user enters all data",
+            "match": {
+              "location": "StepDefHotelBooking.user_enters_all_data()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1158814900,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "user enters incorrect email format and clicks the button",
+            "match": {
+              "location": "StepDefHotelBooking.user_enters_incorrect_email_format_and_clicks_the_button()"
+            },
+            "keyword": "But "
+          },
+          {
+            "result": {
+              "duration": 1108804100,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "display alert msg",
+            "match": {
+              "location": "StepDefHotelBooking.display_alert_msg()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@HotelBooking"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "User has already logged in with valid credentials",
+        "description": "and is navigated to hotelBooking page. ",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1304294200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefHotelBooking.openBrowsser()"
+            }
+          }
+        ],
+        "line": 41,
+        "name": "Failure in hotel Booking on leaving the mobile no. blank",
+        "description": "",
+        "id": "hotelbooking;failure-in-hotel-booking-on-leaving-the-mobile-no.-blank",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 122664100,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "User is on hotel booking page",
+            "match": {
+              "location": "StepDefHotelBooking.user_is_on_hotel_booking_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4322675400,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "user leaves MobileNo blank and clicks the button",
+            "match": {
+              "location": "StepDefHotelBooking.user_leaves_MobileNo_blank_and_clicks_the_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1115522500,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "display alert msg",
+            "match": {
+              "location": "StepDefHotelBooking.display_alert_msg()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@HotelBooking"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "User has already logged in with valid credentials",
+        "description": "and is navigated to hotelBooking page. ",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1219392400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefHotelBooking.openBrowsser()"
+            }
+          }
+        ],
+        "line": 46,
+        "name": "Failure in hotel Booking on incorrect mobileNo format",
+        "description": "",
+        "id": "hotelbooking;failure-in-hotel-booking-on-incorrect-mobileno-format",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 100565600,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "User is on hotel booking page",
+            "match": {
+              "location": "StepDefHotelBooking.user_is_on_hotel_booking_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3259983500,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "user enters incorrect mobileNo format and clicks the button",
+            "match": {
+              "location": "StepDefHotelBooking.user_enters_incorrect_mobileNo_format_and_clicks_the_button(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "7722005480"
+                ]
+              },
+              {
+                "cells": [
+                  "0900000000"
+                ]
+              },
+              {
+                "cells": [
+                  "2345678989"
+                ]
+              },
+              {
+                "cells": [
+                  "84321"
+                ]
+              },
+              {
+                "cells": [
+                  "77722005480"
+                ]
+              },
+              {
+                "cells": [
+                  ""
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1177880500,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "display alert msg",
+            "match": {
+              "location": "StepDefHotelBooking.display_alert_msg()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@HotelBooking"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "User has already logged in with valid credentials",
+        "description": "and is navigated to hotelBooking page. ",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1268677300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefHotelBooking.openBrowsser()"
+            }
+          }
+        ],
+        "line": 57,
+        "name": "Failure in hotel Booking on not selecting the city",
+        "description": "",
+        "id": "hotelbooking;failure-in-hotel-booking-on-not-selecting-the-city",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 123918900,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "User is on hotel booking page",
+            "match": {
+              "location": "StepDefHotelBooking.user_is_on_hotel_booking_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5553822900,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "user doesnot select city",
+            "match": {
+              "location": "StepDefHotelBooking.user_doesnot_select_city()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1108273100,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "display alert msg",
+            "match": {
+              "location": "StepDefHotelBooking.display_alert_msg()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@HotelBooking"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "User has already logged in with valid credentials",
+        "description": "and is navigated to hotelBooking page. ",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1182639600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefHotelBooking.openBrowsser()"
+            }
+          }
+        ],
+        "line": 62,
+        "name": "Failure in hotel Booking on not selecting the state",
+        "description": "",
+        "id": "hotelbooking;failure-in-hotel-booking-on-not-selecting-the-state",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 146293300,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "User is on hotel booking page",
+            "match": {
+              "location": "StepDefHotelBooking.user_is_on_hotel_booking_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6522893800,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "user doesnot select state",
+            "match": {
+              "location": "StepDefHotelBooking.user_doesnot_select_state()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1124592000,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "display alert msg",
+            "match": {
+              "location": "StepDefHotelBooking.display_alert_msg()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@HotelBooking"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "User has already logged in with valid credentials",
+        "description": "and is navigated to hotelBooking page. ",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1282257400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefHotelBooking.openBrowsser()"
+            }
+          }
+        ],
+        "line": 73,
+        "name": "Validate the number of rooms alloted",
+        "description": "",
+        "id": "hotelbooking;validate-the-number-of-rooms-alloted;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 149746700,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "User is on hotel booking page",
+            "match": {
+              "location": "StepDefHotelBooking.user_is_on_hotel_booking_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8425980200,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "user enters 2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 12
+                }
+              ],
+              "location": "StepDefHotelBooking.user_enters(int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2985600,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "allocate rooms such that 1 room for minimum 3 guests",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 25
+                },
+                {
+                  "val": "3",
+                  "offset": 44
+                }
+              ],
+              "location": "StepDefHotelBooking.allocate_rooms_such_that_room_for_minimum_guests(int,int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@HotelBooking"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "User has already logged in with valid credentials",
+        "description": "and is navigated to hotelBooking page. ",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1464146300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefHotelBooking.openBrowsser()"
+            }
+          }
+        ],
+        "line": 74,
+        "name": "Validate the number of rooms alloted",
+        "description": "",
+        "id": "hotelbooking;validate-the-number-of-rooms-alloted;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 122290100,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "User is on hotel booking page",
+            "match": {
+              "location": "StepDefHotelBooking.user_is_on_hotel_booking_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8463507900,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "user enters 6",
+            "match": {
+              "arguments": [
+                {
+                  "val": "6",
+                  "offset": 12
+                }
+              ],
+              "location": "StepDefHotelBooking.user_enters(int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 194600,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "allocate rooms such that 1 room for minimum 3 guests",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 25
+                },
+                {
+                  "val": "3",
+                  "offset": 44
+                }
+              ],
+              "location": "StepDefHotelBooking.allocate_rooms_such_that_room_for_minimum_guests(int,int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@HotelBooking"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "User has already logged in with valid credentials",
+        "description": "and is navigated to hotelBooking page. ",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1366317400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefHotelBooking.openBrowsser()"
+            }
+          }
+        ],
+        "line": 75,
+        "name": "Validate the number of rooms alloted",
+        "description": "",
+        "id": "hotelbooking;validate-the-number-of-rooms-alloted;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 144642200,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "User is on hotel booking page",
+            "match": {
+              "location": "StepDefHotelBooking.user_is_on_hotel_booking_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8454222700,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "user enters 9",
+            "match": {
+              "arguments": [
+                {
+                  "val": "9",
+                  "offset": 12
+                }
+              ],
+              "location": "StepDefHotelBooking.user_enters(int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 265800,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "allocate rooms such that 1 room for minimum 3 guests",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 25
+                },
+                {
+                  "val": "3",
+                  "offset": 44
+                }
+              ],
+              "location": "StepDefHotelBooking.allocate_rooms_such_that_room_for_minimum_guests(int,int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@HotelBooking"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "User has already logged in with valid credentials",
+        "description": "and is navigated to hotelBooking page. ",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1355661200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefHotelBooking.openBrowsser()"
+            }
+          }
+        ],
+        "line": 77,
+        "name": "Failure in hotel Booking on leaving the CardHolderName blank",
+        "description": "",
+        "id": "hotelbooking;failure-in-hotel-booking-on-leaving-the-cardholdername-blank",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 131181000,
+              "status": "passed"
+            },
+            "line": 78,
+            "name": "User is on hotel booking page",
+            "match": {
+              "location": "StepDefHotelBooking.user_is_on_hotel_booking_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8679894500,
+              "status": "passed"
+            },
+            "line": 79,
+            "name": "user leaves CardHolderName blank and clicks the button",
+            "match": {
+              "location": "StepDefHotelBooking.user_leaves_CardHolderName_blank_and_clicks_the_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1156372400,
+              "status": "passed"
+            },
+            "line": 80,
+            "name": "display alert msg",
+            "match": {
+              "location": "StepDefHotelBooking.display_alert_msg()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@HotelBooking"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "User has already logged in with valid credentials",
+        "description": "and is navigated to hotelBooking page. ",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1288418100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefHotelBooking.openBrowsser()"
+            }
+          }
+        ],
+        "line": 82,
+        "name": "Failure in hotel Booking on leaving the DebitCardNo blank",
+        "description": "",
+        "id": "hotelbooking;failure-in-hotel-booking-on-leaving-the-debitcardno-blank",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 143818100,
+              "status": "passed"
+            },
+            "line": 83,
+            "name": "User is on hotel booking page",
+            "match": {
+              "location": "StepDefHotelBooking.user_is_on_hotel_booking_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9838930400,
+              "status": "passed"
+            },
+            "line": 84,
+            "name": "user leaves DebitCardNo blank and clicks the button",
+            "match": {
+              "location": "StepDefHotelBooking.user_leaves_DebitCardNo_blank_and_clicks_the_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1135280800,
+              "status": "passed"
+            },
+            "line": 85,
+            "name": "display alert msg",
+            "match": {
+              "location": "StepDefHotelBooking.display_alert_msg()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@HotelBooking"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "User has already logged in with valid credentials",
+        "description": "and is navigated to hotelBooking page. ",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1294183700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefHotelBooking.openBrowsser()"
+            }
+          }
+        ],
+        "line": 87,
+        "name": "Failure in hotel Booking on leaving the expirationMonth blank",
+        "description": "",
+        "id": "hotelbooking;failure-in-hotel-booking-on-leaving-the-expirationmonth-blank",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 106049300,
+              "status": "passed"
+            },
+            "line": 88,
+            "name": "User is on hotel booking page",
+            "match": {
+              "location": "StepDefHotelBooking.user_is_on_hotel_booking_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11801199500,
+              "status": "passed"
+            },
+            "line": 89,
+            "name": "user leaves expirationMonth blank and clicks the button",
+            "match": {
+              "location": "StepDefHotelBooking.user_leaves_expirationMonth_blank_and_clicks_the_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1181509500,
+              "status": "passed"
+            },
+            "line": 90,
+            "name": "display alert msg",
+            "match": {
+              "location": "StepDefHotelBooking.display_alert_msg()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@HotelBooking"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "User has already logged in with valid credentials",
+        "description": "and is navigated to hotelBooking page. ",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1256800000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefHotelBooking.openBrowsser()"
+            }
+          }
+        ],
+        "line": 92,
+        "name": "Failure in hotel Booking on leaving the expirationYr blank",
+        "description": "",
+        "id": "hotelbooking;failure-in-hotel-booking-on-leaving-the-expirationyr-blank",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 159284000,
+              "status": "passed"
+            },
+            "line": 93,
+            "name": "User is on hotel booking page",
+            "match": {
+              "location": "StepDefHotelBooking.user_is_on_hotel_booking_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12985504200,
+              "status": "passed"
+            },
+            "line": 94,
+            "name": "user leaves expirationYr blank and clicks the button",
+            "match": {
+              "location": "StepDefHotelBooking.user_leaves_expirationYr_blank_and_clicks_the_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1132725700,
+              "status": "passed"
+            },
+            "line": 95,
+            "name": "display alert msg",
+            "match": {
+              "location": "StepDefHotelBooking.display_alert_msg()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@HotelBooking"
+          }
+        ]
+      }
+    ],
+    "name": "HotelBooking",
+    "description": "",
+    "id": "hotelbooking",
+    "keyword": "Feature",
+    "uri": "Feature/Hotel_booking.feature",
+    "tags": [
+      {
+        "name": "@HotelBooking",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
